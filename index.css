@@ -1,0 +1,32 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: blueviolet;
+    margin-bottom: 50px;  /* Тут я задал нижний отступ (толщину пустоты ниже заголовка h1 (Привет, мир!)) */
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul li a {  /* Задаём шрифт ссылок в списке; Тут: ссылки (<a>) внутри элементов списка (<li>) внутри неупорядоченного списка (<ul>) */
+    font-size: 18px;
+}
+
+.center-link {  /* Этот кусок кода наверное не очень эффективный, но рабочий - использую для формирования ссылок  */
+    display: inline-block;                                         /* Дорога на Балчик и Дорога к Золотым пескам  */
+    font-size: 24px;
+    background-color: #fffdd0;     /* Кремовый фон */
+    padding: 10px 20px;            /* Внутренние отступы */
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
